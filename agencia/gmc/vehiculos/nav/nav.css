@@ -1,0 +1,35 @@
+.custom-navbar-brand {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.custom-logo {
+    width: 100px !important;
+    height: auto;
+    margin-right: 10px;
+}
+.navbar-nav .nav-link {
+    color: white !important;
+}
+.navbar-nav .nav-link:hover {
+    color: #D3D3D3 !important;
+}
+.navbar-nav .btn-warning {
+    padding: 5px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.navbar-custom {
+    background-color: #000 !important;
+}
+.dropdown-item:hover {
+    background-color: #000 !important;
+    color: #D3D3D3 !important;
+}
+.dropdown-menu {
+    background-color: #000;
+    z-index: 1001;
+}

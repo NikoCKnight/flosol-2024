@@ -1,0 +1,83 @@
+.main-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    margin-bottom: 10px;
+}
+.text-justify {
+    text-align: justify;
+}
+.sub-title {
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 40px;
+}
+.custom-input {
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .btn-custom {
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+
+  .btn-custom:hover {
+    background-color: #f0f0f0;
+  }
+
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+.custom-img {
+    height: 300px;
+    object-fit: contain;
+}
+.custom-title {
+    font-size: 1.5rem;
+}
+.custom-text {
+    font-size: 1.1rem;
+}
+.model-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 15px;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+.model-card img {
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.btn-group .btn {
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+.model-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.model-card:hover {
+    transform: translateY(-5px);
+}

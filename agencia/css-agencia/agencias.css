@@ -1,0 +1,59 @@
+.underline-red {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.sizing{
+    width: 560;
+    height: 315;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.car-column {
+    margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+    h1.display-4 {
+        font-size: 1.8rem;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .sizing{
+        height: 10;
+    }
+}
+.btn {
+    margin-bottom: 20px;
+}
+.btn-custom {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+}
+.btn-custom:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #fff;
+}
+.video-responsive {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.video-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.justify-text {
+    text-align: justify;
+}

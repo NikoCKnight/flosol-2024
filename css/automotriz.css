@@ -1,0 +1,30 @@
+.bg-header-blue {
+    background-color: #00354D;
+}
+.bg-gray {
+    background-color: #F5F5F5;
+}
+.text-primary-custom {
+    color: #00354D;
+}
+.brand-logo {
+    width: 60px;
+    height: auto;
+    margin-right: 15px;
+}
+.brand-item img[alt="Chrysler"],
+.brand-item img[alt="Buick"],
+.brand-item img[alt="Dodge"] {
+    width: 80px;
+}
+.brand-item img[alt="Jetour"],
+.brand-item img[alt="Gac"],
+.brand-item img[alt="Stellantis"] {
+    width: 100px;
+}
+.content-container {
+    padding-top: 100px;
+}
+.brand-item {
+    height: 80px;
+}
